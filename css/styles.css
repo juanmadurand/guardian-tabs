@@ -1,0 +1,70 @@
+@import 'fonts.css';
+body {
+  font-family:"Guardian Egyptian Web", Georgia, serif;
+}
+.news-tabs {
+  border: 1px solid #eee;
+  margin: 20px 0;
+  border-bottom: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.nav-tabs {
+  background-color: #eee;
+}
+.nav-tabs li {
+  list-style-type: none;
+  background: #eee;
+  padding: 0;
+  text-align: center;
+}
+.nav-tabs li a{
+  border-radius: 0;
+  font-weight: 900;
+  margin: 0;
+}
+.nav-tabs li.active a, .nav-tabs li.active a:hover{
+  border-color:#fff!important;
+}
+.loader {
+  padding: 20px 0;
+  text-align: center;
+}
+.loading-icon {
+  display: inline-block;
+  background: url('../assets/loader.gif') no-repeat;
+  background-size: 100%;
+  width: 32px;
+  height: 32px;
+}
+.story {
+  padding: 0 15px;
+  border-bottom: 1px solid #dcdcdc;
+  white-space: nowrap;
+}
+.story span {
+  padding-right: 3px;
+  font-weight: 300;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  width: 14px;
+}
+.story .webTitle {
+  padding:10px;
+  display: inline-block;
+  color: #333;
+  font-size: 1.2em;
+  white-space: normal;
+  vertical-align: middle;
+}
+.story .webTitle:hover {
+  text-decoration:none;
+}
+.story time {
+  color: #aaa;
+  font-size: .9em;
+  float: right;
+  padding: 13px 0;
+  display: block;
+}

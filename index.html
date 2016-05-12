@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guardian Test - Juan Manuel Durand</title>
+
+  <!-- Bootstrap - Lightweight and custom build with grid system and nav component -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="assets/32x32.ico"/>
+</head>
+<body>
+  <div class="container">
+    <section class="news-tabs">
+      <ul class="nav nav-tabs">
+        <li class="col-xs-4 active"><a href="#" data-pane="uk-news">UK News</a></li>
+        <li class="col-xs-4"><a href="#" data-pane="football">Football</a></li>
+        <li class="col-xs-4"><a href="#" data-pane="travel">Travel</a></li>
+      </ul>
+       <div class="tab-content">
+         <div class="tab-pane active" id="uk-news"><div class="loader"><i class="loading-icon"></i></div></div>
+         <div class="tab-pane" id="football"></div>
+         <div class="tab-pane" id="travel"></div>
+       </div>
+    </section>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="http://timeago.yarp.com/jquery.timeago.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
